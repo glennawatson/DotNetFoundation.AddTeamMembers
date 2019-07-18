@@ -31,7 +31,7 @@ You must add a personal access token by going to https://github.com/settings/tok
   --version                Display version information.
 ```
 
-A sample for adding to 'dynamic-data' team on 'ReactiveUI':
+A sample for adding to 'dynamic-data' team on 'ReactiveUI', reading in a CSV file of `test.txt` and outputting any failed users to `test-out.txt`.
 
 ```bash
 DotNetFoundation.AddTeamMembers.exe -c test.txt -o test-out.txt -t "dynamic-data" -p "personal-access-token" --org-name ReactiveUI
