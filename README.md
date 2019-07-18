@@ -39,7 +39,7 @@ DotNetFoundation.AddTeamMembers.exe -c test.txt -o test-out.txt -t "dynamic-data
 
 ## CSV Input/Output File Format
 
-The CSV file would be in the following format, where the top line is always `UserName` is each line after is a GitHub username.
+The CSV file would be in the following format, where the top line is always `UserName` and each line after is a GitHub username.
 
 ```csv
 UserName
