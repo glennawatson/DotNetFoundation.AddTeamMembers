@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DotNetFoundation.AddTeamMembers": {
+      "commandName": "Project",
+      "commandLineArgs": " -c test.txt -o test-out.txt -t \"dynamic-data\" -p \"42d251d85fba0a950be81954467f9fc632ecbc35\" --org-name ReactiveUI"
+    }
+  }
+}
